@@ -1,0 +1,59 @@
+html {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  background-color: black;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+
+}
+
+header nav {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  width:380px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+nav span {
+  display: inline-block;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  flex-direction: column;
+}
+h1 {
+  position: relative;
+  margin-top: 100px;
+}
