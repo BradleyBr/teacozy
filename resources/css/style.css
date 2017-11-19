@@ -14,7 +14,7 @@ header {
   border-bottom: 1px solid seashell;
   width: 100%;
   top: 0;
-  z-index: 5;
+  z-index: 10;
   background-color: black;
 }
 
@@ -50,10 +50,31 @@ nav span {
 .content {
   display: flex;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
   flex-direction: column;
 }
-h1 {
+
+.ourmission {
+  width: 1200px;
+  height:700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
   position: relative;
-  margin-top: 100px;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.missiontext {
+  position: relative;
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+  background-color: black;
+  z-index: 5;
+}
+
+.missiontext h2, .missiontext h4 {
+  margin: 5px;
+
 }
